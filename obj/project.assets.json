@@ -1678,11 +1678,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ehsan/my codes/C# codes/MobileServer/MobileServer/MobileServer.csproj",
+      "projectUniqueName": "/home/ehsan/my codes/C#codes/MobileServer/MobileServer/MobileServer.csproj",
       "projectName": "MobileServer",
-      "projectPath": "/home/ehsan/my codes/C# codes/MobileServer/MobileServer/MobileServer.csproj",
+      "projectPath": "/home/ehsan/my codes/C#codes/MobileServer/MobileServer/MobileServer.csproj",
       "packagesPath": "/home/ehsan/.nuget/packages/",
-      "outputPath": "/home/ehsan/my codes/C# codes/MobileServer/MobileServer/obj/",
+      "outputPath": "/home/ehsan/my codes/C#codes/MobileServer/MobileServer/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/ehsan/.nuget/NuGet/NuGet.Config"

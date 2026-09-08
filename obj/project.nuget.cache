@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k5wS+VP8t6w=",
+  "dgSpecHash": "USIFXrDG5bI=",
   "success": true,
-  "projectFilePath": "/home/ehsan/my codes/C# codes/MobileServer/MobileServer/MobileServer.csproj",
+  "projectFilePath": "/home/ehsan/my codes/C#codes/MobileServer/MobileServer/MobileServer.csproj",
   "expectedPackageFiles": [
     "/home/ehsan/.nuget/packages/avalonia/12.1.1/avalonia.12.1.1.nupkg.sha512",
     "/home/ehsan/.nuget/packages/avalonia.angle.windows.natives/2.1.27548.20260419/avalonia.angle.windows.natives.2.1.27548.20260419.nupkg.sha512",

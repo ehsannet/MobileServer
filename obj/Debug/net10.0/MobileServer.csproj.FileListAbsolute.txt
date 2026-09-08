@@ -90,3 +90,14 @@
 /home/ehsan/my codes/C# codes/MobileServer/MobileServer/obj/Debug/net10.0/MobileServer.pdb
 /home/ehsan/my codes/C# codes/MobileServer/MobileServer/obj/Debug/net10.0/MobileServer.genruntimeconfig.cache
 /home/ehsan/my codes/C# codes/MobileServer/MobileServer/obj/Debug/net10.0/ref/MobileServer.dll
+/home/ehsan/my codes/C#codes/MobileServer/MobileServer/obj/Debug/net10.0/MobileServer.csproj.AssemblyReference.cache
+/home/ehsan/my codes/C#codes/MobileServer/MobileServer/obj/Debug/net10.0/Avalonia/Resources.Inputs.cache
+/home/ehsan/my codes/C#codes/MobileServer/MobileServer/obj/Debug/net10.0/Avalonia/resources
+/home/ehsan/my codes/C#codes/MobileServer/MobileServer/obj/Debug/net10.0/MobileServer.GeneratedMSBuildEditorConfig.editorconfig
+/home/ehsan/my codes/C#codes/MobileServer/MobileServer/obj/Debug/net10.0/MobileServer.AssemblyInfoInputs.cache
+/home/ehsan/my codes/C#codes/MobileServer/MobileServer/obj/Debug/net10.0/MobileServer.AssemblyInfo.cs
+/home/ehsan/my codes/C#codes/MobileServer/MobileServer/obj/Debug/net10.0/MobileServer.csproj.CoreCompileInputs.cache
+/home/ehsan/my codes/C#codes/MobileServer/MobileServer/obj/Debug/net10.0/MobileServer.sourcelink.json
+/home/ehsan/my codes/C#codes/MobileServer/MobileServer/obj/Debug/net10.0/MobileServer.dll
+/home/ehsan/my codes/C#codes/MobileServer/MobileServer/obj/Debug/net10.0/refint/MobileServer.dll
+/home/ehsan/my codes/C#codes/MobileServer/MobileServer/obj/Debug/net10.0/MobileServer.pdb
