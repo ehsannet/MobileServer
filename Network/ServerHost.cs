@@ -2,39 +2,45 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using System.Net.Sockets;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Http;
+using MobileServer.Service;
 
 namespace MobileServer.Network
 {
     public class ServerHost
     {
-        private TcpListener _server;
-        private TcpClient _client;
-        private NetworkStream _stream;
-        private byte[] _buffer = new byte[1024];
-        private int _readbyte;
-        private string _httprequest;
-        public ServerHost()
+
+         public void startserver()
         {
-            _server = new TcpListener(IPAddress.Any,5000);
-        }
-        public void StartServerMS()
-        {
-            _server.Start();
-        }
-        public void ClientConnectToMS()
-        {
-            int t;
-            while(app == "off")
+            var f1 = new FileService();
+            Task.Run(() => 
             {
-                 _client = _server.AcceptTcpClient();
-                 _stream = _client.GetStream();char
-                _readbyte = _stream.Read(_buffer,0,_buffer.Length);
-            }
-        }
-        public void ReadStremMS()
-        {
-            _httprequest = Encoding.UTF8.GetString(_buffer,0,_readbyte.Length);
+                var builder = WebApplication.CreateBuilder();
+                var app = builder.Build();
+                //اگه بنویسم پینگ 110 رو برمیگردونه
+                app.MapGet("/ping", () => "110");
+                app.MapGet("/file1", () =>
+                {
+
+                    if (File.Exists(f1.folder) == true)
+                    {
+                        return File(f1.folder);
+                    }
+                    else
+                    {
+                        return "error404";
+                    }
+                });
+                //عبارت لامبادا هست این کصکش پایینی
+                app.MapPost("/upload", async (IFormFile file) =>
+                {
+                   await f1.SaveFile(file);
+                return  "succesful get it:" + file.FileName;
+                }).DisableAntiforgery();
+                app.Run("http://0.0.0.0:5000");
+
+            });
         }
     }
 }

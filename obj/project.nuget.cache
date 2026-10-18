@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "USIFXrDG5bI=",
+  "dgSpecHash": "B9L4ZXRwEcg=",
   "success": true,
   "projectFilePath": "/home/ehsan/my codes/C#codes/MobileServer/MobileServer/MobileServer.csproj",
   "expectedPackageFiles": [
@@ -26,8 +26,6 @@
     "/home/ehsan/.nuget/packages/harfbuzzsharp.nativeassets.webassembly/8.3.1.3/harfbuzzsharp.nativeassets.webassembly.8.3.1.3.nupkg.sha512",
     "/home/ehsan/.nuget/packages/harfbuzzsharp.nativeassets.win32/8.3.1.3/harfbuzzsharp.nativeassets.win32.8.3.1.3.nupkg.sha512",
     "/home/ehsan/.nuget/packages/microcom.runtime/0.11.6/microcom.runtime.0.11.6.nupkg.sha512",
-    "/home/ehsan/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
-    "/home/ehsan/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "/home/ehsan/.nuget/packages/microsoft.io.recyclablememorystream/3.0.1/microsoft.io.recyclablememorystream.3.0.1.nupkg.sha512",
     "/home/ehsan/.nuget/packages/skiasharp/3.119.4/skiasharp.3.119.4.nupkg.sha512",
     "/home/ehsan/.nuget/packages/skiasharp.nativeassets.linux/3.119.4/skiasharp.nativeassets.linux.3.119.4.nupkg.sha512",

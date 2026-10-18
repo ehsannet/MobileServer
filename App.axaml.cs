@@ -3,6 +3,7 @@ using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
 using MobileServer.ViewModels;
 using MobileServer.Views;
+using MobileServer.Network;
 
 namespace MobileServer;
 
@@ -23,6 +24,9 @@ public partial class App : Application
             };
         }
 
+        new ServerHost().startserver();
         base.OnFrameworkInitializationCompleted();
+
     }
+
 }

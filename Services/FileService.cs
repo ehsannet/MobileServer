@@ -5,6 +5,7 @@ using System.IO;
 using System.Collections;
 using System.Threading.Tasks;
 using MobileServer.Models;
+using MobileServer.Network;
 
 namespace MobileServer.Services
 {
@@ -13,10 +14,22 @@ namespace MobileServer.Services
         private string _orginalpath;
         private string _temppath;
         public int NumberFileinList;
+        public string folder;
         public FileService()
         {
             _orginalpath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
             _temppath = Path.Combine(Path.GetTempPath(),"uploaded_file");
+            folder = Path.Combine(_orginalpath,"files");
+        }
+        public async Task SaveFile(IFormFile f)
+        {
+            Directory.CreateDirectory(folder);
+            using (var filef = new FileStream(folder,FileMod.CreatNew,FileAccess.ReadWrite))
+            {
+                await f.CopyToAsync(file);
+                
+            }
+            
         }
          public void Process()
         {
@@ -29,10 +42,8 @@ namespace MobileServer.Services
         }
         public void ReadFileInfoList()
         {
-            CacheFile[NumberFileinList].FileName;
-            CacheFile[NumberFileinList].FileFormat;
-            CacheFile[NumberFileinList].FileDate;
-            CacheFile[NumberFileinList].FileSize; 
+          
+          
         }
                 
 

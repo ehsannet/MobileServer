@@ -21,4 +21,6 @@ sealed class Program
 #endif
             .WithInterFont()
             .LogToTrace();
+            
 }
+
